@@ -1,0 +1,10 @@
+if (repo.findStudentById(sid) == null) {
+    System.out.println("Student not found!");
+    break;
+}
+try {
+    int choice = sc.nextInt();
+} catch (Exception e) {
+    System.out.println("Invalid Input!");
+    sc.nextLine();
+}
